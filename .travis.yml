@@ -11,4 +11,6 @@ env:
   global:
     # RELEASE contains the serverless release to build
     # Ref: https://github.com/serverless/serverless/releases
-    - RELEASE=2.69.1
+    - RELEASE=3.25.0
+    - DOCKER_USER="svcpcmdocker000"
+    - DOCKER_PASS="Syscopcm@1234"
